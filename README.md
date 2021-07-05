@@ -1,3 +1,7 @@
+This python script will let you add urls to your pocket account
+
+First, you have to [Create your consumer key](https://getpocket.com/developer/apps/new) from getpocket's developer console. To get the access token, you have to authorize the app on your own account. There are tools on the web that can automate this for you such as [fxneumann's OneClickPocket](http://reader.fxneumann.de/plugins/oneclickpocket/auth.php)
+
     import requests
     
     from requests.structures import CaseInsensitiveDict
@@ -19,6 +23,7 @@
     
     {
     
+    #submit your post here in the url field
     "url": "https://example.com/post/",
     
     "consumer_key":"Your consumer key",
